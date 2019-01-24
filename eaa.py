@@ -37,5 +37,5 @@ os.system("python2 eaa.py")
 try:
 	main()
 except KeyboardInterrupt:
-system('clear')
+os.system('python2 eaa.py')
 	restart()
