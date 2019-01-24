@@ -25,14 +25,14 @@ then
 clear 
 sh check 
 echo ""
-echo "" 
- sleep 2
- apt install python python2 vim figlet curl
-pkg install php
-pip2 install lolcat
+echo "waiting...."
+echo 
+ sleep 6
+apt install python python2 vim figlet lolcat
 pip2 install mechanize
 clear
 clear
+clear 
 python2 Sddos.py
 fi 
 
