@@ -32,7 +32,7 @@ def main():
 		print "\n\033[1;36mSorry Invalid Username !!!\033[00m"
 		print "Back Login\n"
 time.sleep(2)
-os.system("python2 eaa.py")
+os.system("clear")
 
 try:
 	main()
