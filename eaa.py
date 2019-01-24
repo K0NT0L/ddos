@@ -27,8 +27,15 @@ def main():
 			print "\n\033[1;36mMaafkeun Aing Anda Harus Mengulang !!!\033[00m"
 			print "Back Login\n"
 			restart()
+			
+	else:
+		print "\n\033[1;36mSorry Invalid Username !!!\033[00m"
+		print "Back Login\n"
+time.sleep(2)
+os.system("python2 eaa.py")
+
 try:
 	main()
 except KeyboardInterrupt:
-	system('clear')
+os.system('clear')
 	restart()
