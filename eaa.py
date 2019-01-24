@@ -7,7 +7,7 @@ os.system("clear")
 os.system("figlet Welcome | lolcat")
 print ("\033[1;32mLogin Dulu ea")
 print ("\033[1;31;1mPm StarFuckTak'-' Dikalau anda bosan wkwk")
-username='FUCKKING'      
+ID='FUCKKING'      
 password='240918'
 
 def restart():
@@ -15,11 +15,11 @@ def restart():
 	os.execl(ngulang, ngulang, *sys.argv)
 
 def main():
-	uname = raw_input("username : ")
-	if uname == username:
-		pwd = raw_input("password : ")
+	user = raw_input("username : ")
+	if user == ID:
+		pwna = raw_input("password : ")
 
-		if pwd == password:
+		if pwna == password:
 			print "\n\033[1;34mSukses!!", 
 			exit()
 
@@ -29,10 +29,11 @@ def main():
 			restart()
 			
 	else:
-		print "\n\033[1;36mSorry Invalid Username !!!\033[00m"
+		print "\n\033[1;36mSalah ID cuk =(\033[00m"
 		print "Back Login\n"
 time.sleep(2)
-
+print 
+print ("\033[94m")
 try:
 	main()
 except KeyboardInterrupt:
