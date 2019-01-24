@@ -1,7 +1,7 @@
  #!/usr/bin/python
  
 import os
-import sys
+import sys,time
 
 os.system("clear")
 os.system("figlet Welcome | lolcat")
@@ -37,5 +37,5 @@ os.system("python2 eaa.py")
 try:
 	main()
 except KeyboardInterrupt:
-os.system('clear')
+system('clear')
 	restart()
