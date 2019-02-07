@@ -11,6 +11,9 @@ red='\033[1;91m'
 import os
 import time
 import sys
+
+os.system("clear")
+time.sleep(0.1)
 print ("______________________________________________________________________")
 print(cyan),("To Install My tools please check your internet")
 print
@@ -18,7 +21,7 @@ print(red),("[1. ] Ya ")
 print(green),("[2. ] Tidak")
 print
 print(purple),("[!] Vol (-) + z to exit.. ")
-print ("______________________________________________________________________")
+print(white),("______________________________________________________________________")
 print
 pilih = input("\033[36;1mRoot@StarFuckTak ==>> ")
 print
