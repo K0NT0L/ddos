@@ -11,22 +11,26 @@ red='\033[1;91m'
 import os
 import time
 import sys
-
+print ("______________________________________________________________________")
 print(cyan),("To Install My tools please check your internet")
 print
-print(red),("[Ya atau Tdk]")
+print(red),("[1. ] Ya ")
+print(green),("[2. ] Tidak")
 print
-asw = raw_input("\033[36;1mRoot@StarFuckTak ==>> ")
+print(purple),("[!] Vol (-) + z to exit.. ")
+print ("______________________________________________________________________")
+print
+pilih = input("\033[36;1mRoot@StarFuckTak ==>> ")
 print
 
-if asw == Ya:
+if pilih == 1:
          time.sleep(0.1)
          os.system("sh check")
          print ("\033[36;1mYess%s... ")
          time.sleep(0.1)
          os.system("python2 Sddos.py")
          exit()
-if asw == Tdk:
+if pilih == 2:
          time.sleep(0.1)
          os.system("clear")
          print "%sExiting%s...."%(green,white)
@@ -36,4 +40,6 @@ if asw == Tdk:
 else:
          print "%s Wrong %sInput"%(blue,yellow) 
          sys.exit()
-         
+except KeyboardInterrupt:
+        print "[*] Exiting program .."
+        sys.exit()
