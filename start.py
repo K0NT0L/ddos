@@ -14,19 +14,19 @@ import sys
 
 print(cyan),("To Install My tools please check your internet")
 print
-print(red),("[Y atau T]")
+print(red),("[Ya atau Tdk]")
 print
-asw = input("\033[36;1mRoot@StarFuckTak ==>> ")
+asw = raw_input("\033[36;1mRoot@StarFuckTak ==>> ")
 print
 
-if asw == Y:
+if asw == Ya:
          time.sleep(0.1)
          os.system("sh check")
          print ("\033[36;1mYess%s... ")
          time.sleep(0.1)
          os.system("python2 Sddos.py")
          exit()
-if asw == T:
+if asw == Tdk:
          time.sleep(0.1)
          os.system("clear")
          print "%sExiting%s...."%(green,white)
