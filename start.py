@@ -16,24 +16,24 @@ print(cyan),("To Install My tools please check your internet")
 print
 print(red),("[Y atau T]")
 print
-asw = input("%sRoot%s@local%shost ==>> ")%(green,yellow,white)
+asw = input("\033[36;1mRoot@StarFuckTak ==>> ")
 print
 
 if asw == Y:
          time.sleep(0.1)
          os.system("sh check")
-         print ("%sYess%s... ")%(cyan,white)
+         print ("\033[36;1mYess%s... ")
          time.sleep(0.1)
          os.system("python2 Sddos.py")
          exit()
 if asw == T:
          time.sleep(0.1)
          os.system("clear")
-         print ("%sExiting....")
+         print "%sExiting%s...."%(green,white)
          time.sleep(0.1)
-         print ("%sTo back %s>> %s python2 start.py")%(purple,green,white)
+         print "%sTo back %s>> %s python2 start.py"%(purple,green,white)
          sys.exit()
 else:
-         print ("%s Wrong %sInput")%(blue,yellow) 
+         print "%s Wrong %sInput"%(blue,yellow) 
          sys.exit()
          
