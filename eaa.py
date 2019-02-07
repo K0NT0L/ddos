@@ -11,8 +11,7 @@ ID='FUCKKING'
 password='240918'
 
 def restart():
-	ngulang = sys.executable
-	os.execl(ngulang, ngulang, *sys.argv)
+        os.system("python2 eaa.py")
 
 def main():
 	user = raw_input("username : ")
