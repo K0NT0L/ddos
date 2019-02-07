@@ -1,4 +1,4 @@
-#!/bin/env python2
+#!/usr/bin/env python2
 
 blue='\033[34;1m'
 green='\033[32;1m'
