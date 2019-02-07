@@ -40,6 +40,3 @@ if pilih == 2:
 else:
          print "%s Wrong %sInput"%(blue,yellow) 
          sys.exit()
-except KeyboardInterrupt:
-        print "[*] Exiting program .."
-        sys.exit()
