@@ -15,7 +15,7 @@ import sys
 print(cyan),("To Install My tools please check your internet")
 print
 print(red),("[Y atau T]")
-print("
+print
 asw = input("%sRoot%s@local%shost ==>> ")%(green,yellow,white)
 print
 
